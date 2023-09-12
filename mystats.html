@@ -48,6 +48,18 @@
         <td>2</td>   
     </tr>
 </table>
+<hr>
+<h3>Code_Display</h3>
+<blockquote>
+    <a href="https://stackoverflow.com/questions/6245971/accurate-way-to-measure-execution-times-of-php-scripts">How to measure script execution time in PHP-Stack_overflow</a>
+</blockquote>
 
+<pre>
+$execution_time = microtime(); // Start counting
+//your code
+$execution_time = microtime() - $execution_time;
+printf('It took %.5f sec', $execution_time);
+</pre>
+<a href="https://css-tricks.com/snippets/php/count-script-excecution-time/">Quick link to source code</a>
 </body>
 </html>
